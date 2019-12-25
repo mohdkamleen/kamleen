@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2&display=swap');
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+   
+
+}
+
+body{
+    width: 100%;
+  
+}
+.banner{
+    width: 100%;
+    background: #111;
+    padding:10px;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.address {
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer{
+    color: #ffffff;
+    text-align: center;
+    background: #000;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sesions{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+   color: #999999;
+}
+
+.sesions h3{
+    color:#ffffff;
+    text-transform: uppercase;
+}
+
+.first{
+    /* background: rgb(231, 12, 12); */
+    padding:20px;
+}
+
+.second{
+    /* background: rgb(82, 164, 231); */
+    padding:20px;
+}
+
+.third{
+    /* background: rgb(79, 20, 218); */
+    padding:20px;
+}
+
+
+@media (max-width:768px){
+
+    .sesions{flex-direction: column;
+        padding: 0;
+    }
+    .footer{
+       flex-direction: column;
+    }
+    
+}
+
+
+.first ul li {
+    list-style: none;
+    /* color:transparent ; */
+
+}
+
+
+a{
+    text-decoration: none;
+    transition: .2s linear;
+}
+
+a:hover{
+    color: blue;
+}
+
+.social a{
+    height: 30px;
+    width: 30px;
+    border: 2px solid #666666;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 2px;
+    color: #666666;
+    box-shadow: 1px 1px 3px 2px #555555,
+                1px 1px 4px 3px #555555,
+                1px 1px 5px 4px #555555;
+}
+
+.social a:hover{
+    box-shadow: none;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.social {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
