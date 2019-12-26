@@ -78,7 +78,12 @@ body{
     .footer{
        flex-direction: column;
     }
-    
+ .banner{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     flex-direction:column;
+    }
 }
 
 
