@@ -113,9 +113,9 @@ a:hover{
     align-items: center;
     margin: 10px 2px;
     color: #666666;
-    box-shadow: 1px 1px 3px 2px #555555,
-                1px 1px 4px 3px #555555,
-                1px 1px 5px 4px #555555;
+    -webkit-box-shadow: -1px -1px 47px 7px rgba(29, 29, 28, 0.81);
+    -moz-box-shadow: -1px -1px 47px 7px rgba(34, 34, 33, 0.81);
+    box-shadow: -1px -1px 47px 7px rgba(39, 39, 38, 0.81);
 }
 
 .social a:hover{
